@@ -42,7 +42,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  
+  kittens.slice
 }
 
 describe('removeLastKitten()', function() {
