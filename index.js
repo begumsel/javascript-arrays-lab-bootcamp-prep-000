@@ -19,6 +19,10 @@ function destructivelyPrependKitten(name){
   return window.kittens
 }
 
+function destructivelyRemoveLastKitten(){
+  
+}
+
 describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
