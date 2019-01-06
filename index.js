@@ -41,3 +41,5 @@ function removeLastKitten(){
   kittens.slice(0, 2)
 }
 
+
+
