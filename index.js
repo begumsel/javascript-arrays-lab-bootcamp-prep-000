@@ -33,6 +33,10 @@ function appendKitten(name){
   [...kittens, "Broom"]
 }
 
+function prependKitten(name){
+  ["Arnold", ...kittens]
+}
+
   describe('prependKitten(name)', function() {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
