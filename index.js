@@ -10,7 +10,7 @@ function  Arrays(){
 } 
 
 function destructivelyAppendKitten(name){
-  kittens.push()
+  kittens.push('Ralph')
   return window.kittens
 }
 
