@@ -31,7 +31,6 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   [...kittens, "Broom"]
-  window.kittens
 }
 
 function prependKitten(name){
