@@ -15,7 +15,8 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  
+  kittens.unshift("Bob")
+  return window.kittens
 }
 
 describe('destructivelyPrependKitten(name)', function() {
